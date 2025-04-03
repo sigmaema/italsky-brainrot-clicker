@@ -1,4 +1,4 @@
-/* 🎨 Základní stylování */
+
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -7,13 +7,12 @@ body {
     padding: 20px;
 }
 
-/* 🔥 Nadpis */
+
 h1 {
     font-size: 2.5rem;
     color: #6200ea;
 }
 
-/* 🌟 Obrázek */
 #obrazek {
     cursor: pointer;
     transition: transform 0.2s;
@@ -25,7 +24,6 @@ h1 {
     transform: scale(1.1);
 }
 
-/* 💰 Počet aurapointů */
 #penize {
     font-size: 1.5rem;
     font-weight: bold;
@@ -33,7 +31,6 @@ h1 {
     color: white;
 }
 
-/* 🖲️ Tlačítka */
 button {
     background-color: #6200ea;
     color: white;
@@ -51,7 +48,6 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* 🔥 Speciální tlačítko zastavit */
 #zastavitAutoclicker {
     background-color: #d50000;
 }
