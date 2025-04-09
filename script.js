@@ -51,7 +51,7 @@ autoclicker13.addEventListener('click', () => {
     if (penize >= 40) {
         penize -= 40;
         interval13 = setInterval(() => {
-            penize += 1;
+            penize += multiplier;
             penizeText.innerHTML = `Počet aurapointů: ${penize}`;
         }, 333);
     }
@@ -62,7 +62,7 @@ autoclicker14.addEventListener('click', () => {
     if (penize >= 60) {
         penize -= 60;
         interval14 = setInterval(() => {
-            penize += 1;
+            penize += multiplier;
             penizeText.innerHTML = `Počet aurapointů: ${penize}`;
         }, 250);
     }
