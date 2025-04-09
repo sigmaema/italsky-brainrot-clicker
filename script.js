@@ -11,7 +11,7 @@ const zastavitAutoclicker = document.getElementById('zastavitAutoclicker')
 let multiplier = 1
 let penize = 0
 obrazek.addEventListener('click', () => {
-    penize += 1
+    penize += multiplier
     penizeText.innerHTML = `Počet aurapointů: ${penize}`
     console.log(penize)
 });
@@ -81,9 +81,12 @@ zastavitAutoclicker.addEventListener('click', () => {
     }
 });
 aura3x.addEventListener('click', ()=> {
-    if (penize >= 100) { // nebo jakoukoliv cenu chceš
-        penize -= 100;
+    if (penize >= 40) {
+        penize -= 40;
         multiplier = 3;
         penizeText.innerHTML = `Počet aurapointů: ${penize}`;
     }
 })
+console.log(
+    multiplier
+)
